@@ -615,28 +615,19 @@ display: flex;
 text-align: center;
 align-items: center;
 
-
-
 margin-top: 20px;
 }
 
 .footer-form-box {
 display: flex;
 align-items: center;
-
-
 }
 
-.label-footer {
-position: absolute;
-
-margin-left: 16px;
-
+.input-footer::placeholder {
+color: rgba(255, 255, 255, 0.6);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.25;
-
-color: rgba(255, 255, 255, 0.6);
 }
 
 .input-footer {
@@ -647,7 +638,7 @@ background-color: #2F303A;
 color: var(--color-white);
     
 margin-right: 12px;
-padding-left: 79px;
+padding-left: 16px;
 
 border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
